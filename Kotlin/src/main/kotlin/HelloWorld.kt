@@ -6,4 +6,9 @@ import com.sun.tools.doclint.DocLint
  */
 fun main(args: Array<String>){
     println("Hello,world!");
+    print(sum(3,5));
 }
+
+// 函数表达式
+fun sum(a: Int, b: Int) = (a + b);
+
